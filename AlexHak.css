@@ -1,0 +1,61 @@
+body {
+    background-color: #f2f2f2;
+  }
+  
+  #game-heading {
+    color: #444444;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #game-heading + #game-heading {
+    color: #7a7373;
+    font-size: 64px;
+    margin-top: 20px;
+  }
+  
+  #game-square {
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    position: absolute;
+    margin-top: 40em;
+    margin-left: 75em;
+  }
+  
+  #game-score {
+    top: 80px;
+    left: 0;
+    color: #444444;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #game-timer {
+    top: 120px;
+    left: 0;
+    color: #444444;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #game-message {
+    top: 160px;
+    left: 0;
+    color: #444444;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #game-message:after {
+    content: "Show me how fast you can be.";
+    display: block;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+  }
